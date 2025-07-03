@@ -173,6 +173,17 @@
         
         <a href="{fullURL}" target="_blank" class="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Open link in a new tab</a>
       </div>
-      {/if}
+    {/if}
+
+    <h2>What is this?</h2>
+    <p>A strictly client side parser that takes a long safe link that outlook in enterprise environments replaces original links with so it can do its own telemetry and checking for malicious sites in the background.</p>
+    <p>This tool extracts the original URL so you know when you're going to click the safe link where you're going to land.</p>
+    <h2>Who made it?</h2>
+    <p><a href="https://bsky.app/profile/javorszky.rocks">Gabor Javorszky</a></p>
+    <h2>Can I see the source code?</h2>
+    <p>Yep, <a href="https://github.com/javorszky/outlook-safelink-decoder">it's on GitHub.</a></p>
+    <h2>Any technical details?</h2>
+    <p>It's made with SvelteKit 5, deployed to a Cloudflare worker.</p>
+    <p><i>Copyright © Gabor Javorszky {new Date().getFullYear()}</i></p>
   </div>
 </div>
