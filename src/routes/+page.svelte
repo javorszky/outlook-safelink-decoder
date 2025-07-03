@@ -165,11 +165,9 @@
 
     {#if done}
       <div class="mx-auto max-w-max">
-        <!--
-        I will return to this because ugh
-        
+
         <p class="my-2 ">Full link:</p>
-        <pre><code class="wrap-anywhere overflow-auto">{fullURL}</code></pre> -->
+        <pre><code class="wrap-anywhere text-wrap">{fullURL}</code></pre>
         
         <a href="{fullURL}" target="_blank" class="inline-flex items-center gap-x-2 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Open link in a new tab</a>
       </div>
